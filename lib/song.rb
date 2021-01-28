@@ -28,7 +28,7 @@ class Song
   end 
   
   def artist_name=(filename)
-    song.artist = filename.split(" - ")[0]
+    Song.artist = filename.split(" - ")[0]
   end
   
 end 
